@@ -6,6 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
@@ -44,9 +46,16 @@ form {
         cursor: pointer;
     }
     
-@media only screen and (min-widht: 400px) {
+@media screen and (max-width: 480px) {
 
-        #formulario {
+        header{
+            width: 300px;
+            font-size: 8pt;
+        }
+        header img{
+            height: 50px;
+        }
+        form{
             width: 300px;
         }
     }
