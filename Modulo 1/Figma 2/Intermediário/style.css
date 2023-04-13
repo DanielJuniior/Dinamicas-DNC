@@ -115,3 +115,15 @@ body{
             color: #FFFFFF;
         }
 
+        @media screen and (max-width: 480px) {
+
+            form input{
+                width: 300px;
+            }
+            h2{
+                font-size: 25px;
+            }
+            h4{
+                font-size: 20px;
+            }
+        }
